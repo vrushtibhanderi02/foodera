@@ -1,0 +1,997 @@
+/* bootstrap icon conectivity */
+/* Option 2: Import via CSS */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+
+/* font connectivity-online */
+/* @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap'); */
+
+/* font connectivity */
+
+/* roboto-100italic - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 100;
+    src: url('../fonts/roboto-v30-latin-100italic.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/roboto-v30-latin-100italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/roboto-v30-latin-100italic.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+         url('../fonts/roboto-v30-latin-100italic.woff') format('woff'), /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+, iOS 5+ */
+         url('../fonts/roboto-v30-latin-100italic.ttf') format('truetype'), /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+         url('../fonts/roboto-v30-latin-100italic.svg#Roboto') format('svg'); /* Legacy iOS */
+  }
+  /* roboto-300 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/roboto-v30-latin-300.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/roboto-v30-latin-300.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/roboto-v30-latin-300.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+         url('../fonts/roboto-v30-latin-300.woff') format('woff'), /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+, iOS 5+ */
+         url('../fonts/roboto-v30-latin-300.ttf') format('truetype'), /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+         url('../fonts/roboto-v30-latin-300.svg#Roboto') format('svg'); /* Legacy iOS */
+  }
+  /* roboto-regular - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/roboto-v30-latin-regular.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/roboto-v30-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/roboto-v30-latin-regular.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+         url('../fonts/roboto-v30-latin-regular.woff') format('woff'), /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+, iOS 5+ */
+         url('../fonts/roboto-v30-latin-regular.ttf') format('truetype'), /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+         url('../fonts/roboto-v30-latin-regular.svg#Roboto') format('svg'); /* Legacy iOS */
+  }
+  /* roboto-500 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/roboto-v30-latin-500.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/roboto-v30-latin-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/roboto-v30-latin-500.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+         url('../fonts/roboto-v30-latin-500.woff') format('woff'), /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+, iOS 5+ */
+         url('../fonts/roboto-v30-latin-500.ttf') format('truetype'), /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+         url('../fonts/roboto-v30-latin-500.svg#Roboto') format('svg'); /* Legacy iOS */
+  }
+  /* roboto-700 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/roboto-v30-latin-700.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/roboto-v30-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/roboto-v30-latin-700.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+         url('../fonts/roboto-v30-latin-700.woff') format('woff'), /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+, iOS 5+ */
+         url('../fonts/roboto-v30-latin-700.ttf') format('truetype'), /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+         url('../fonts/roboto-v30-latin-700.svg#Roboto') format('svg'); /* Legacy iOS */
+  }
+  /* roboto-900 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    src: url('../fonts/roboto-v30-latin-900.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/roboto-v30-latin-900.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/roboto-v30-latin-900.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+         url('../fonts/roboto-v30-latin-900.woff') format('woff'), /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+, iOS 5+ */
+         url('../fonts/roboto-v30-latin-900.ttf') format('truetype'), /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+         url('../fonts/roboto-v30-latin-900.svg#Roboto') format('svg'); /* Legacy iOS */
+  }
+/* quicksand-300 - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/quicksand-v31-latin-300.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/quicksand-v31-latin-300.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/quicksand-v31-latin-300.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+         url('../fonts/quicksand-v31-latin-300.woff') format('woff'), /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+, iOS 5+ */
+         url('../fonts/quicksand-v31-latin-300.ttf') format('truetype'), /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+         url('../fonts/quicksand-v31-latin-300.svg#Quicksand') format('svg'); /* Legacy iOS */
+  }
+  /* quicksand-regular - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/quicksand-v31-latin-regular.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/quicksand-v31-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/quicksand-v31-latin-regular.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+         url('../fonts/quicksand-v31-latin-regular.woff') format('woff'), /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+, iOS 5+ */
+         url('../fonts/quicksand-v31-latin-regular.ttf') format('truetype'), /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+         url('../fonts/quicksand-v31-latin-regular.svg#Quicksand') format('svg'); /* Legacy iOS */
+  }
+  /* quicksand-500 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/quicksand-v31-latin-500.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/quicksand-v31-latin-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/quicksand-v31-latin-500.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+         url('../fonts/quicksand-v31-latin-500.woff') format('woff'), /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+, iOS 5+ */
+         url('../fonts/quicksand-v31-latin-500.ttf') format('truetype'), /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+         url('../fonts/quicksand-v31-latin-500.svg#Quicksand') format('svg'); /* Legacy iOS */
+  }
+  /* quicksand-600 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/quicksand-v31-latin-600.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/quicksand-v31-latin-600.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/quicksand-v31-latin-600.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+         url('../fonts/quicksand-v31-latin-600.woff') format('woff'), /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+, iOS 5+ */
+         url('../fonts/quicksand-v31-latin-600.ttf') format('truetype'), /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+         url('../fonts/quicksand-v31-latin-600.svg#Quicksand') format('svg'); /* Legacy iOS */
+  }
+  /* quicksand-700 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/quicksand-v31-latin-700.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/quicksand-v31-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/quicksand-v31-latin-700.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+         url('../fonts/quicksand-v31-latin-700.woff') format('woff'), /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+, iOS 5+ */
+         url('../fonts/quicksand-v31-latin-700.ttf') format('truetype'), /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+         url('../fonts/quicksand-v31-latin-700.svg#Quicksand') format('svg'); /* Legacy iOS */
+  }
+
+:root{
+    --main-font:"Quicksand", sans-serif;
+    --sub-font:"Roboto", sans-serif;
+    --theme-color:#A82D49;
+    --title-color:#43121D;
+    --stitle-color:#555555;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: var(--sub-font);
+} 
+a{
+    display: inline-block;
+    text-decoration: none;
+}
+.container{
+    padding: 0 150px;
+}
+li{
+    list-style: none;
+}
+.img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.space{
+    justify-content: space-between;
+}
+.spacer{
+  margin-top: 150px;
+}
+.grid{
+    display: grid;
+}
+::selection{
+    color: #000;
+    background-color: #dbdbdb;
+}
+.gap{
+    gap: 30px;
+}
+html{
+  scroll-behavior: smooth;
+}
+
+/* header */
+
+.fixed{
+    position: fixed;
+    top:0; 
+    left:0;
+    width: 100%; 
+    z-index: 999;
+}
+.left-logo{
+    align-self: center;
+}
+.header-info{
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 8px;
+    background-color: white;
+}
+.main_menu li a{
+    padding: 40px 20px;
+    color: var(--theme-color);
+    font-weight: 600;
+    font-size: 15px;
+}
+.btn{
+    margin-left: 20px;
+    align-self: center;
+}
+.btn a{
+    padding: 10px 25px;
+    background-color: var(--theme-color);
+    color: white;
+    font-weight: 600;
+    border: 2px solid var(--theme-color);
+    transition: .4s;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+}
+.btn:hover a{
+    color: var(--theme-color);
+    background-color: transparent;
+}
+
+/* pre-loader */
+.pre-loader{
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10000;
+}
+
+#cooking {
+    position: fixed;
+    margin: 0 auto;
+    top: 25%;
+    left: 42%;
+    width: 30vh;
+    height:30vh;
+    overflow: hidden;
+}
+
+#cooking #area {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 50%;
+    height: 50%;
+    background-color: transparent;
+    transform-origin: 15% 60%;
+    animation: flip 2.1s ease-in-out infinite;
+}
+
+#cooking #area #sides {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-origin: 15% 60%;
+    animation: switchSide 2.1s ease-in-out infinite;
+}
+
+#cooking #area #sides #handle {
+    position: absolute;
+    bottom: 18%;
+    right: 80%;
+    width: 35%;
+    height: 20%;
+    background-color: transparent;
+    border-top: 1vh solid var(--theme-color);
+    border-left: 1vh solid transparent;
+    border-radius: 100%;
+    transform: rotate(20deg) rotateX(0deg) scale(1.3, 0.9);
+}
+#cooking #area #sides #pan {
+    position: absolute;
+    bottom: 20%;
+    right: 30%;
+    width: 50%;
+    height: 8%;
+    background-color: var(--theme-color);
+    border-radius: 0 0 1.4em 1.4em;
+    transform-origin: -15% 0;
+}
+
+#cooking #area #pancake {
+    position: absolute;
+    top: 24%;
+    width: 100%;
+    height: 100%;
+    transform: rotateX(85deg);
+    animation: jump 2.1s ease-in-out infinite;
+}
+
+#cooking #area #pancake #pastry {
+    position: absolute;
+    bottom: 26%;
+    right: 37%;
+    width: 40%;
+    height: 45%;
+    background-color: var(--theme-color);
+    box-shadow: 0 0 3px 0 var(--theme-color);
+    border-radius: 100%;
+    transform-origin: -20% 0;
+    animation: fly 2.1s ease-in-out infinite;
+}
+
+#cooking .bubble {
+    position: absolute;
+    border-radius: 100%;
+    box-shadow: 0 0 0.25vh #a82d4a2d;
+    opacity: 0;
+}
+
+#cooking .bubble:nth-child(1) {
+    margin-top: 2.5vh;
+    left: 58%;
+    width: 2.5vh;
+    height: 2.5vh;
+    background-color: var(--theme-color);
+    animation: bubble 2s cubic-bezier(0.53, 0.16, 0.39, 0.96) infinite;
+}
+
+#cooking .bubble:nth-child(2) {
+    margin-top: 3vh;
+    left: 52%;
+    width: 2vh;
+    height: 2vh;
+    background-color: var(--theme-color);
+    animation: bubble 2s ease-in-out 0.35s infinite; 
+}
+
+#cooking .bubble:nth-child(3) {
+    margin-top: 1.8vh;
+    left: 50%;
+    width: 1.5vh;
+    height: 1.5vh;
+    background-color: var(--theme-color);
+    animation: bubble 1.5s cubic-bezier(0.53, 0.16, 0.39, 0.96) 0.55s infinite;
+}
+
+#cooking .bubble:nth-child(4) {
+    margin-top: 2.7vh;
+    left: 56%;
+    width: 1.2vh;
+    height: 1.2vh;
+    background-color: var(--theme-color);
+    animation: bubble 1.8s cubic-bezier(0.53, 0.16, 0.39, 0.96) 0.55s infinite;
+}
+
+#cooking .bubble:nth-child(5) {
+    margin-top: 2.7vh;
+    left: 63%;
+    width: 1.1vh;
+    height: 1.1vh;
+    background-color: var(--theme-color);
+    animation: bubble 1.6s ease-in-out 1s infinite; 
+}
+
+
+@keyframes pulse {
+    0% {
+        transform: scale(1, 1);
+        opacity: 0.25;
+    }
+    50% {
+        transform: scale(1.2, 1);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(1, 1);
+        opacity: 0.25;
+    }
+}
+
+@keyframes flip {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    5% {
+        transform: rotate(-27deg);
+    }
+
+    30%, 50% {
+        transform: rotate(0deg);
+    }
+
+    55% {
+        transform: rotate(27deg);
+    }
+
+    83.3% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes switchSide {
+    0% {
+        transform: rotateY(0deg) ;
+    }
+
+    50% {
+        transform: rotateY(180deg);
+    }
+    100% {
+        transform: rotateY(0deg);
+    }
+}
+
+@keyframes jump {
+    0% {
+        top: 24;
+        transform: rotateX(85deg);
+    }
+    25% {
+        top: 10%;
+        transform: rotateX(0deg);
+    }
+    50% {
+        top: 30%;
+        transform: rotateX(85deg);
+    }
+    75% {
+        transform: rotateX(0deg);
+    }
+    100% {
+        transform: rotateX(85deg);
+    }
+}
+
+@keyframes fly {
+    0% {
+        bottom: 26%;
+        transform: rotate(0deg);
+    }
+    10% {
+        bottom: 40%;
+    }
+    50% {
+        bottom: 26%;
+        transform: rotate(-190deg);
+    }
+    80% {
+        bottom: 40%;
+    }
+    100% {
+        bottom: 26%;
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes bubble {
+    0% {
+        transform: scale(0.15, 0.15);
+        top: 80%;
+        opacity: 0;
+    }
+    50% {
+        transform: scale(1.1, 1.1);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(0.33, 0.33);
+        top: 60%;
+        opacity: 0;
+    }
+}
+
+/* bottom-top btn */
+.top-bottom{
+    cursor: pointer;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+  }
+  .top-bottom i{
+    padding: 22px 23px;
+    color: var(--theme-color);
+    background-color: white;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    font-size: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.251);
+}
+.top-bottom i:hover{
+    animation: rotate 5s linear infinite;
+    -webkit-animation: rotate 5s linear infinite;
+}
+
+@keyframes rotate {
+    to{
+        rotate: 0deg;
+    }
+    from{
+        rotate: 360deg;
+    }
+}
+
+
+/* banner slider */
+
+.banner-slider{
+    background: url(../img/slider-banner.jpeg);
+    background-size: cover;
+}
+.banner-slider .container{
+    padding-top: 160px;
+    padding-bottom: 140px;
+}
+.s_title{
+    font-family: var(--main-font);
+    font-size: 48px;
+    color: var(--title-color);
+    font-weight: 700;
+}
+.slider-content{
+    width: 35%;
+}
+.s_title2{
+    margin-top: 20px;
+    font-size: 16px;
+    color: var(--stitle-color);
+    line-height: 28px;
+}
+.btn-slider{
+    margin-top: 30px;
+}
+.btn-slider .btn-s{
+    transition: .4s;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+    display: inline-block;
+}
+.btn-s a{
+    padding: 12px 25px;
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+    box-shadow: 0px 2px 10px -1px rgba(0, 0, 0, 0.19);
+}
+.btn-s a >i{
+    margin-left: 5px;
+}
+.btn1{
+    background-color: var(--theme-color);
+    border: 2px solid var(--theme-color);
+}
+.btn1:hover{
+    background-color: transparent;
+}
+.btn1:hover a{
+    color: var(--theme-color);
+}
+.btn2{
+    margin-left: 20px;
+    background-color: white;
+    box-shadow:0px 2px 10px -1px rgba(0, 0, 0, 0.19) ;
+}
+.btn2 a{
+    color: #000;
+    border: 2px solid transparent;
+    transition: .3s;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -ms-transition: .3s;
+    -o-transition: .3s;
+    &:hover
+    {
+        border: 2px solid var(--theme-color);
+        color: var(--theme-color);
+    }
+}
+.btn2 a>i{
+    color: var(--stitle-color);
+}
+
+/* count-down */
+.count-down{
+    background-color: var(--theme-color);
+    padding: 40px 0;
+}
+.counting-sec.grid{
+    grid-template-columns: repeat(4,1fr);
+}
+.count-down{
+    color: white;
+    text-align: center;
+}
+.count-down .number{
+    font-size: 40px;
+    font-family: var(--main-font);
+    font-weight: 600;
+}
+.count-down .name{
+    margin-top: 20px;
+    font-size:12px ;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 700;
+}
+
+/* best intermidite */
+.food-img{
+    width: 50%;
+}
+.food-img img{
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+.food-content{
+    width: 35%;
+    margin-left: 40px;
+    align-self: center;
+}
+.food-main{
+    font-family: var(--main-font);
+    font-size: 32px;
+    font-weight: 700;
+    color: var(--title-color);
+}
+.food-sub{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 16px;
+    color: var(--stitle-color);
+    line-height: 28px;
+}
+.food-content .btn-s{
+    display: inline-block;    
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+/* best possible */
+.best-content{
+    width: 40%;
+    align-self: center;
+}
+.best-img{
+    width: 55%;
+    margin-left: 30px;
+}
+.dish-name{
+    font-size: 16px;
+    color: var(--stitle-color);
+    margin-top: 20px;
+}
+.dish-name i{
+    margin-right: 10px;
+    color: var(--theme-color);
+}
+.best-possible .btn-s{
+    margin-top: 35px;
+    display: inline-block;
+}
+
+/* play video */
+
+.v-content{
+    text-align: center;
+}
+.v-img{
+    background: url(../img/asset\ 9.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.v-img .container{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.v-title{
+    font-family: var(--main-font);
+    font-size: 36px;
+    color: var(--theme-color);
+    font-weight: 700;
+}
+.v-subtitle{
+    margin-top: 20px;
+    font-size: 16px;
+    color: var(--stitle-color);
+    line-height: 30px;
+}
+.play-btn{
+    cursor: pointer;
+    margin-top: 30px;
+    font-size: 16px;
+    color: var(--title-color);
+    &:hover{
+        color: var(--theme-color);
+    }
+}
+.play-btn i{
+    font-size: 20px;
+    margin-right: 8px;
+    color: var(--title-color);
+}
+.play-btn:hover i{
+    color: var(--theme-color);
+}
+
+/* explore food  */
+.explore-title{
+    text-align: center;
+}
+.food-explore-sec{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+}
+.foodmenu-img img{
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+.food-name{
+    margin-top: 10px;
+    font-size: 18px;
+    color: var(--title-color);
+    font-family: var(--main-font);
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+.food-time{
+    font-size: 16px;
+    color: var(--stitle-color);
+    margin-bottom: 25px;
+}
+.price{
+    font-size: 24px;
+    color: var(--theme-color);
+    font-weight: 600;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 25px;
+}
+.price s{
+    color: #999;
+}
+.food-menubtn a{
+    margin-top: 20px;
+    font-size: 16px;
+    color: white;
+    background-color: var(--theme-color);
+    padding: 12px 28px;
+    font-weight: 600;
+    border: 2px solid var(--theme-color);
+    transition: .3s;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -ms-transition: .3s;
+    -o-transition: .3s;
+    &:hover
+    {
+        background-color: transparent;
+        color: var(--theme-color);
+    }
+}
+
+/* testimonial */
+.testimonial{
+    background-color: var(--theme-color);
+}
+.testimonial .container{
+    padding-top: 100px;
+    padding-bottom: 180px;
+}
+.testi-title p{
+    font-family: var(--main-font);
+    font-size: 36px;
+    color: white;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.testi-content{
+    padding: 50px;
+    background-color: white;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+.c-review{
+    text-align: center;
+}
+.client-img{
+    width: 70px;
+    display: flex;
+    margin: 0 auto;
+}
+.client-img img{
+    margin: 0 auto;
+    margin-bottom: 15px;
+    width: 70px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+.c-message{
+    font-size: 21px;
+    font-weight: 300;
+    color: #111;
+    line-height: 32px;
+}
+.c-name{
+    margin-top: 30px;
+    font-size: 16px;
+    color: var(--theme-color);
+    font-weight: 600;
+}
+/* dots slider's */
+.owl-dots{
+    position: absolute;
+    bottom: -50px;
+    left: 45%;
+}
+.owl-dots .owl-dot{
+    display: inline-block;
+    height: 15px !important;
+    width: 15px !important;
+    border-radius: 50px !important;
+    background-color:rgba(255, 255, 255, 0.245) !important;
+    -webkit-border-radius: 50px !important;
+    -moz-border-radius: 50px !important;
+    -ms-border-radius: 50px !important;
+    -o-border-radius: 50px !important;
+    margin: 0 10px;
+}
+.owl-dots .owl-dot.active{
+    background-color: white !important;
+}
+
+/* faq section */
+.faq-title{
+    text-align: center;
+    margin-bottom: 60px;
+}
+.faq-content{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 30px;
+}
+.faq-que{
+    font-size: 18px;
+    color: var(--title-color);
+    font-family: var(--main-font);
+    font-weight: 600;
+}
+.faq-que span{
+    color: #f98169;
+}
+.faq-ans{
+    margin-top: 8px;
+    font-size: 16px;
+    color: var(--stitle-color);
+    line-height: 26px;
+}
+
+/* backed fresh */
+.baked{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(../img/asset\ 10.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 60px;
+    padding-bottom: 80px;
+    background-attachment: fixed;
+}
+.freash-title{
+    font-size: 28px;
+    color: white;
+    font-weight: 600;
+    font-family: var(--main-font);
+}
+.baked .btn-s{
+    margin-left: 250px;
+}
+
+/* newsletter */
+.newsletter{
+    margin-bottom: 100px;
+}
+.news-title{
+    text-align: center;
+}
+.new-content{
+    
+    justify-content: center;
+}
+.new-content input{
+    width: 35%;
+    padding: 10px 0;
+    padding-left: 20px;
+    border: 1px solid rgb(133, 133, 133);
+    outline: none;
+    font-family: 'Roboto';
+    font-weight: 600;
+    color: var(--stitle-color);
+}
+.sub-btn{
+    padding: 12px 45px;
+    background-color: var(--theme-color);
+    color: white;
+    font-weight: 500;
+    transition: .3s;
+    border: 2px solid var(--theme-color);
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -ms-transition: .3s;
+    -o-transition: .3s;
+    &:hover
+    {
+        background-color: transparent;
+        color: var(--theme-color);
+    }
+}
+
+/* footer */
+footer{
+    background-color: var(--theme-color);
+    text-align: center;
+    padding: 100px 0;
+}
+.footerp a{
+    color: white;
+    margin: 0 10px;
+    transition: .3s;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -ms-transition: .3s;
+    -o-transition: .3s;
+    &:hover{
+        text-decoration: underline;
+    }
+}
+.footer-icon i{
+    margin-top: 30px;
+    padding: 0 5px;
+    font-size: 22px;
+    color: white;
+}
+.f-line{
+    margin-top: 40px;
+    font-size: 13px;
+    color: white;
+}

@@ -1,0 +1,22 @@
+body {
+    padding: 1000px 0;
+    background: rgba(black, .05);
+  }
+  #counter{
+    background: rgba(black, .05);
+    padding: 25px;
+    width: 800px;
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    li{
+      flex: 1;
+      text-align: center;
+      font-size: 50px;
+    }
+    span.percent:after {
+      content: "%";
+      display: inline-block;
+    }
+  }
